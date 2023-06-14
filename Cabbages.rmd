@@ -69,7 +69,17 @@ the average amount of Vitamin c39 method is 51.5. The average amount of vitamin 
 
 <!--State hypothesis clearly.  Make sure your discussion of the inferential test covers all the aspects that the test output produces, such as test statistic, p-value etc.  Make a decision about the null hypothesis, explain the assumptions on which the selected test/procedure was based, and why the chosen procedure satisfys the assumptions and is appropriate to answer the research question!-->
 
+```{r}
+t.test(VitC~Cult,data=veggy)
+```
+The probability of getting a result as we just obtained is .000000003405 that is a very little number. Which is the result of what we got. Comparing c39 and c52 the vitamin is so low. It is possible that it might happen but is very little possibility. The hypothesis is to be rejected. The methods are different.
 
 # Discussion and Conclusion
 
 <!--Discussion and conclusion here.  If you found a relationship be sure to consider whether the relationship occurs because one of the variavbles causes the other, or whether they perhasps are related for some other reason.  Watch the chapter 6 videos from the GeorgeTown videos collection.!-->
+
+In today's class i learned how to create a plot and ask Chat GPT for help creating formulas for my box plot. I also commented on every chart. i learned about Ttest results and made it easier to explain in simpler terms.
+
+
+
+
