@@ -35,6 +35,28 @@ veggy <- cabbages
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+
+
+
+```{r}
+library(ggplot2)
+
+# Create a box plot
+ggplot(veggy, aes(x = Cult, y = VitC)) +
+  geom_boxplot() +
+  xlab("Cult") +
+  ylab("VitC") +
+  ggtitle("Box Plot of VitC by Cult") +
+  theme(plot.title = element_text(hjust = 0.5, size = 16))
+```
+
+
+If you look at the 2 boxes on the box plot. The major box is above the lower one. The middle 50% of the method of higher box is quite a bit different between the c39 and c52. They are completely displaced from each other. We will probably find a statistical difference between these 2 methods.
+
+
+
+
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
