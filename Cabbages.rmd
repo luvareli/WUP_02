@@ -55,11 +55,15 @@ If you look at the 2 boxes on the box plot. The major box is above the lower one
 
 
 
-
-
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+the average amount of Vitamin c39 method is 51.5. The average amount of vitamin c52 method is 64.5. Box c52 and box c39 have not overlapped. The numerical difference is stated in the amount.
+
 
 ## Inferential Results
 
